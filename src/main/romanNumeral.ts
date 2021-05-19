@@ -1,5 +1,5 @@
 export class RomanNumeral {
-    numeralMaps: Record<number, string> = {0: "", 1: "I", 4: "IV", 5: "V", 9: "IX", 10: "X"};
+    numeralMaps: Record<number, string> = {0: "", 1: "I", 4: "IV", 5: "V", 9: "IX", 10: "X", 40: "XL"};
     keys = Object.keys(this.numeralMaps).reverse()
 
     convert(number: number): string {

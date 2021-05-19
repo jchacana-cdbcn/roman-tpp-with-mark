@@ -19,6 +19,8 @@ describe('Roman Numeral', () => {
         ["XX", 20],
         ["XXXIX", 39],
         ["XL", 40],
+        ["XLIX", 49],
+        ["L", 50],
     ])
     ("return %s when passing %i", (expected: string, input: number) => {
         let romanNumeral: RomanNumeral = new RomanNumeral();
