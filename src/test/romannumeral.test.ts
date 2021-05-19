@@ -5,4 +5,9 @@ describe('Roman Numeral', () => {
         let romanNumeral: RomanNumeral = new RomanNumeral();
         expect(romanNumeral.convert(0)).toBe("");
     })
+
+    it("return 'I' when passing 1", () => {
+        let romanNumeral: RomanNumeral = new RomanNumeral();
+        expect(romanNumeral.convert(1)).toBe("I");
+    })
 })
