@@ -1,5 +1,8 @@
 export class RomanNumeral {
     convert(number: number) {
-        return "";
+        let result = "";
+        if(number >= 1)
+            return result + "I"
+        return result;
     }
 }
