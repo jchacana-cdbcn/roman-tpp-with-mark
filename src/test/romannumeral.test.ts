@@ -12,6 +12,7 @@ describe('Roman Numeral', () => {
         ["VII", 7],
         ["VIII", 8],
         ["IX", 9],
+        ["X", 10],
     ])
     ("return %s when passing %i", (expected: string, input: number) => {
         let romanNumeral: RomanNumeral = new RomanNumeral();
